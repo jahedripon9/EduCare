@@ -1,6 +1,7 @@
 import Banner from "../../Banner/Banner";
 import OnlineCenter from "../../OnlineCenter/OnlineCenter";
 import OurCommunity from "../../OurCommunity/OurCommunity";
+import Footer from "../../Shared/Footer/Footer";
 import Header from "../../Shared/Header/Header";
 import StartLearning from '../../StartLearning/StartLearning';
 import Subscribe from "../../Subscribe/Subscribe";
@@ -14,6 +15,7 @@ const Home = () => {
             <StartLearning />
             <Subscribe />
             <OurCommunity />
+            <Footer />
         </div>
     );
 };
