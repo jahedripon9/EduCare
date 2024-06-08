@@ -1,4 +1,6 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import logo from '../../../assets/Vector.png';
+import { faFacebook, faInstagram, faLinkedinIn, faSquareInstagram, faTwitter } from '@fortawesome/free-brands-svg-icons';
 const Footer = () => {
     return (
         <div>
@@ -13,73 +15,46 @@ const Footer = () => {
                     </div>
                     <div className="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center">
                         <div className="lg:w-1/4 md:w-1/2 w-full px-4">
-                            <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">CATEGORIES</h2>
-                            <nav className="list-none mb-10">
-                                <li>
-                                    <a className="text-gray-600 hover:text-gray-800">First Link</a>
-                                </li>
-                                <li>
-                                    <a className="text-gray-600 hover:text-gray-800">Second Link</a>
-                                </li>
-                                <li>
-                                    <a className="text-gray-600 hover:text-gray-800">Third Link</a>
-                                </li>
-                                <li>
-                                    <a className="text-gray-600 hover:text-gray-800">Fourth Link</a>
-                                </li>
+                            <h2 className="title-font font-bold text-gray-900 tracking-widest text-bold mb-3">Follow us</h2>
+                            <nav className="list-none mb-8">
+                                
+                                <FontAwesomeIcon className=' text-3xl' icon={faSquareInstagram} />                                
+                                <FontAwesomeIcon className='mx-4 text-3xl' icon={faLinkedinIn} />                                
+                                <FontAwesomeIcon className='mx-0 text-3xl' icon={faFacebook} />                               
+                                <FontAwesomeIcon className='mx-2 text-3xl' icon={faTwitter} />                                
                             </nav>
                         </div>
                         <div className="lg:w-1/4 md:w-1/2 w-full px-4">
-                            <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">CATEGORIES</h2>
+                            <h2 className="title-font font-bold text-gray-900 tracking-widest text-bold mb-3">Useful Links</h2>
                             <nav className="list-none mb-10">
                                 <li>
-                                    <a className="text-gray-600 hover:text-gray-800">First Link</a>
+                                    <a className="text-gray-600 hover:text-gray-800">Our Projects</a>
                                 </li>
                                 <li>
-                                    <a className="text-gray-600 hover:text-gray-800">Second Link</a>
+                                    <a className="text-gray-600 hover:text-gray-800">FAQ’s</a>
                                 </li>
                                 <li>
-                                    <a className="text-gray-600 hover:text-gray-800">Third Link</a>
+                                    <a className="text-gray-600 hover:text-gray-800">News and Updates</a>
                                 </li>
-                                <li>
-                                    <a className="text-gray-600 hover:text-gray-800">Fourth Link</a>
-                                </li>
+                                
                             </nav>
                         </div>
-                        <div className="lg:w-1/4 md:w-1/2 w-full px-4">
-                            <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">CATEGORIES</h2>
+                        <div className="lg:w-2/4 md:w-1/2 w-full px-4">
+                            <h2 className="title-font font-bold text-gray-900 tracking-widest text-bold mb-3">Contacts</h2>
                             <nav className="list-none mb-10">
                                 <li>
-                                    <a className="text-gray-600 hover:text-gray-800">First Link</a>
+                                    <a className="text-gray-600 hover:text-gray-800">Address : 4-5 Main road , Delhi</a>
                                 </li>
                                 <li>
-                                    <a className="text-gray-600 hover:text-gray-800">Second Link</a>
+                                    <a className="text-gray-600 hover:text-gray-800">Email : educare@gmail.com</a>
                                 </li>
                                 <li>
-                                    <a className="text-gray-600 hover:text-gray-800">Third Link</a>
+                                    <a className="text-gray-600 hover:text-gray-800">Phone Number : +91 4533433265</a>
                                 </li>
-                                <li>
-                                    <a className="text-gray-600 hover:text-gray-800">Fourth Link</a>
-                                </li>
+                                
                             </nav>
                         </div>
-                        <div className="lg:w-1/4 md:w-1/2 w-full px-4">
-                            <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">CATEGORIES</h2>
-                            <nav className="list-none mb-10">
-                                <li>
-                                    <a className="text-gray-600 hover:text-gray-800">First Link</a>
-                                </li>
-                                <li>
-                                    <a className="text-gray-600 hover:text-gray-800">Second Link</a>
-                                </li>
-                                <li>
-                                    <a className="text-gray-600 hover:text-gray-800">Third Link</a>
-                                </li>
-                                <li>
-                                    <a className="text-gray-600 hover:text-gray-800">Fourth Link</a>
-                                </li>
-                            </nav>
-                        </div>
+                        
                     </div>
                 </div> <hr />
                 <div className="bg-yellow-100">
