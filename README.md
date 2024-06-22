@@ -1,8 +1,28 @@
-# React + Vite
+# Edu Care
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Edu Care is a modern educational website that provides resources and information for students and educators.
 
-Currently, two official plugins are available:
+![Edu Care Preview](preview.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Demo
+
+Check out the live demo of Edu Care: [Edu Care Demo](https://edu-care-three.vercel.app/)
+
+## Technologies Used
+
+- **Frontend**: HTML, CSS, JavaScript, Reactjs & Vite
+- **Deployment**: Vercel
+
+## Features
+
+- **Courses**: Browse through available courses.
+- **Resources**: Access educational resources.
+- **Responsive Design**: Ensures the website looks great on all devices.
+
+
+To run this project locally, follow these steps:
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/edu-care.git
+   cd edu-care
