@@ -2,8 +2,6 @@
 
 Edu Care is a modern educational website that provides resources and information for students and educators.
 
-![Edu Care Preview](preview.png)
-
 ## Demo
 
 Check out the live demo of Edu Care: [Edu Care Demo](https://edu-care-three.vercel.app/)
